@@ -101,6 +101,33 @@ img {
   margin-right: 50px;
 }
 
+.email-svg {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+
+.smartphone-svg {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+}
+
+/*.smartphone-svg:hover,
+.smartphone-svg:focus {
+  fill: currentColor;
+}
+/*
+.email-svg:hover,
+.email-svg:focus {
+  fill: currentColor;
+}*/
+
+.contacts-block {
+}
+
 .address-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -109,11 +136,17 @@ img {
   color: var(--accent-color);
 }
 
+.contacts-nav {
+  display: flex;
+}
+
 .page-header .address {
   margin-left: auto;
 }
 
-.contacts-nav .link {
+.address-item .link {
+  display: flex;
+  align-items: center;
   color: var(--primary-text-color);
   text-decoration: none;
   font-style: normal;
@@ -123,13 +156,19 @@ img {
   letter-spacing: 0.02em;
 }
 
-.contacts-nav {
-  display: flex;
+.address-item .link:hover,
+.address-item .link:focus {
+  color: var(--accent-color);
 }
 
-.contacts-nav .link:hover,
-.contacts-nav .link:focus {
-  color: var(--accent-color);
+.contacts-block:hover .email-svg,
+.contacts-block:focus .email-svg {
+  fill: currentColor;
+}
+
+.contacts-block:hover .smartphone-svg,
+.contacts-block:focus .smartphone-svg {
+  fill: currentColor;
 }
 
 /*section*/
@@ -143,7 +182,14 @@ img {
 
 /*Герой*/
 .hero {
-  background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.png);
+  background-position: center;
+  height: 600px;
+  max-width: 1600px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -199,9 +245,6 @@ img {
   min-width: 270px;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-
-.section .features-list {
 }
 
 .container .features-list {
