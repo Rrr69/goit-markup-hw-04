@@ -354,7 +354,7 @@ img {
   justify-content: space-between;
 }
 
-.clients-item {
+.clients-item-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -364,11 +364,11 @@ img {
   border-radius: 4px;
 }
 
-.clients-item:hover {
+.clients-item-link:hover {
   border: 1px solid var(--accent-color);
 }
 
-.clients-item:hover .clients-social-svg {
+.clients-item-link:hover .clients-social-svg {
   fill: var(--accent-color);
 }
 
