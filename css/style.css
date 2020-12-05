@@ -347,6 +347,39 @@ img {
   width: 20px;
   height: 20px;
 }
+/*наши клиенты*/
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-item:hover {
+  border: 1px solid var(--accent-color);
+}
+
+.clients-item:hover .clients-social-svg {
+  fill: var(--accent-color);
+}
+
+.clients-social-svg {
+  fill: #afb1b8;
+}
+
+.clients-box {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 /*подвал*/
 
