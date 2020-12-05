@@ -115,19 +115,6 @@ img {
   fill: var(--primary-text-color);
 }
 
-/*.smartphone-svg:hover,
-.smartphone-svg:focus {
-  fill: currentColor;
-}
-/*
-.email-svg:hover,
-.email-svg:focus {
-  fill: currentColor;
-}*/
-
-.contacts-block {
-}
-
 .address-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -258,6 +245,22 @@ img {
   line-height: 1.7;
 }
 
+.features-svg {
+  width: 70px;
+  height: 70px;
+}
+
+.features-svg-block {
+  display: flex;
+  background-color: #f5f4fa;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
 /*чем мы занимаемся*/
 .works-title {
   display: flex;
@@ -269,6 +272,7 @@ img {
 }
 
 /*наша команда*/
+
 .employees-title {
   display: flex;
   padding-bottom: 94px;
@@ -304,8 +308,44 @@ img {
   font-size: 16px;
   line-height: 1.18;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   text-align: center;
+}
+
+.employee-social-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+  height: 44px;
+  margin: 0 32px 30px 32px;
+}
+
+.employees-social-svg-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+
+.employees-social-svg-links:hover .employees-social-svg {
+  fill: #ffffff;
+}
+
+.employees-social-svg-links:hover {
+  background: var(--accent-color);
+  border-radius: 50%;
+}
+
+.employees-social-svg-links:not(:last-child) {
+  margin-right: 10px;
+}
+
+.employees-social-svg {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
 }
 
 /*подвал*/
