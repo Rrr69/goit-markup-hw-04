@@ -407,7 +407,13 @@ img {
   margin-top: 9px;
 }
 
+.inline-footer {
+  display: flex;
+}
+
 .social-footer {
+  margin-left: 70px;
+  margin-top: 17px;
 }
 
 .social-footer-list {
