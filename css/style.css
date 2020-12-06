@@ -364,16 +364,16 @@ img {
   border-radius: 4px;
 }
 
+.clients-social-svg {
+  fill: #afb1b8;
+}
+
 .clients-item-link:hover {
   border: 1px solid var(--accent-color);
 }
 
 .clients-item-link:hover .clients-social-svg {
   fill: var(--accent-color);
-}
-
-.clients-social-svg {
-  fill: #afb1b8;
 }
 
 .clients-box {
@@ -434,7 +434,7 @@ img {
   border-radius: 50%;
 }
 
-.clients-social-svg {
+.social-svg-footer {
   fill: #ffffff;
 }
 
