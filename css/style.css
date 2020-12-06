@@ -389,8 +389,6 @@ img {
 /*подвал*/
 
 .addresses-style {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   text-decoration: none;
   background-color: #2f303a;
   padding-top: 60px;
