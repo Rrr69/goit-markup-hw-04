@@ -176,7 +176,6 @@ img {
     url(../images/hero.png);
   background-color: #ffffff;
   background-position: center;
-  height: 600px;
   max-width: 1600px;
   background-repeat: no-repeat;
   text-align: center;
@@ -416,11 +415,11 @@ img {
 
 .inline-footer {
   display: flex;
+  align-items: baseline;
 }
 
 .social-footer {
   margin-left: 70px;
-  margin-top: 8px;
 }
 
 .social-footer-list {
